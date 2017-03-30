@@ -6,7 +6,7 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 public  class Client {
 	
-	public void byConstructor() {
+	public void runTest() {
 		ApplicationContext ctx =new ClassPathXmlApplicationContext( 
 				"investor_annot.xml");
 		
@@ -17,7 +17,7 @@ public  class Client {
 	public static void main(String[] args) {
 
 		Client clt = new Client();
-		clt.byConstructor();
+		clt.runTest();
 		
 	}
 }
